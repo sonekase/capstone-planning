@@ -52,10 +52,16 @@ module.exports = {
           ],
           plugins: [
             "react-hot-loader/babel",
-            "styled-jsx/babel"
+            "styled-jsx/babel",
           ]
         }
-      }
+      },
+      {
+        test: /\.(png|jpg)$/,
+        use: {
+          loader: "url-loader",
+        },
+      },
     ]
   },
 
@@ -65,7 +71,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template:'template.ejs',
       appMountId: 'react-app-root',
-      title: 'React Help Queue',
+      title: 'capstone planning',
       filename: resolve(__dirname, "build", "index.html"),
     }),
   ]
