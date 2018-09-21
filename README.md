@@ -2,7 +2,7 @@
 
 ## iPhoneX Product Design
 
-## _Project Description_ 
+## _Project Description_
 
 ### Name of Student: _Anousone Kaseumsouk_
 
@@ -44,3 +44,7 @@ React
 * Another possible idea is to create a website for my families restaurant in Key Largo, FL. They do not currently have one.
 
 * Create this capstone for Mobile Application in React-Native, Obejective-C.
+
+## Diagram
+
+![iphone-diagram](https://user-images.githubusercontent.com/38737449/45896575-6ce64680-bd89-11e8-8fcb-dab02b36b0d8.png)
