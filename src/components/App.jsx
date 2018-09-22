@@ -4,6 +4,7 @@ import Film from './Film';
 import Display from './Display';
 import Material from './Material';
 import Faceid from './Faceid';
+import Chip from './Chip';
 import { Switch, Route } from 'react-router-dom';
 
 function App () {
@@ -16,6 +17,7 @@ function App () {
         <Route exact path='/Display' render={()=><Display/>} />
         <Route exact path='/Material' render={()=><Material/>} />
         <Route exact path='/Faceid' render={()=><Faceid/>} />
+        <Route exact path='/Chip' render={()=><Chip/>} />
       </Switch>
     </div>
   );
